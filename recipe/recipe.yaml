@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: scikit-hep
-  version: "2025.11.1"
+  version: "2026.2.1"
   python_min: '3.9'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: a990cc1c7d2dc3b1b4739925c696d985a8a8c2bff47e89f2223078fc1eb581ec
+  sha256: b665874d06a8abdca2e2a21c6ba9574b334fb34b679b1a2de0eda807c3a0784b
 
 build:
   number: 0
